@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>The Sweets Spot</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<img style="width: 200px;" class="navbar-brand" src="img/logo.png" href="index.html">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			    <ul class="navbar-nav">
+			    	<li class="nav-item">
+			        	<a class="nav-link" href="index.html">الرئيسية</a>
+			    	</li>
+			    	<li class="nav-item">
+			        	<a class="nav-link" href="product.html">المنتجات</a>
+			    	</li>
+			    	<li class="nav-item active">
+			        	<a class="nav-link" href="contact.html">اتصل بنا <span class="sr-only">(current)</span></a>
+			    	</li>
+			    </ul>
+			</div>
+		</nav>
+		<div class= "background">
+			<!-- Contact Us Form -->
+			<form class="col-md-8">
+				<div class="col-md-6">
+					<div class="form-group col-md-10">
+				    	<label for="Name">الاسم</label>
+				    	<input type="name" class="form-control" id="name" placeholder="الاسم">
+				    </div>
+					<div class="form-group col-md-10">
+				    	<label for="inputEmail4">البريد الالكتروني</label>
+				    	<input type="email" class="form-control" id="inputEmail4" placeholder="البريد الالكتروني">
+				    </div>
+
+					<div class="form-group col-md-10">
+						<label for="subject">الموضوع</label>
+				    	<select id="subject" class="form-control">
+				        	<option selected>اختر..</option>
+				        	<option>شكوى</option>
+				        	<option>اقتراح</option>
+				        	<option>استفسار</option>
+				       	</select>
+					</div>
+
+					<div class="form-group col-md-10">
+					    <label for="massege">الرسالة</label>
+					    <input type="text" class="form-control" id="massege" placeholder="الرسالة">
+					</div>
+
+					<button type="submit" class="btn btn-primary">إرسال</button>
+				</div>
+				<div class="col-md-6">
+					<img class="formimg" src="img/logo.png">
+				</div>
+			</form>
+		</div>
+	</body>
+	<footer>
+		<div>
+	    	<p><a href="https://www.instagram.com/the.sweets.spot/?hl=en">the.sweets.spot</a> :<i class="fa">&#xf16d;</i></p>
+    		<p>
+    			<a href="#">للأعلى</a>
+    		</p>
+    	</div>
+	</footer>
+</html>
